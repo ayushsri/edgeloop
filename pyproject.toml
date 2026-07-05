@@ -1,0 +1,17 @@
+[project]
+name = "edgeloop"
+version = "0.1.0"
+description = "Local-first agent loop for small LLMs: Ollama tool-calling, strict JSON with repair retries, confidence-based cloud escalation."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Ayush Srivastava", email = "ayush.s0410@gmail.com" }]
+keywords = ["edge-ai", "ollama", "agents", "slm", "on-device", "tool-calling"]
+dependencies = ["jsonschema>=4.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
